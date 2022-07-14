@@ -224,5 +224,6 @@ void Controller::receive(std::unique_ptr<Event> e)
         default: throw UnexpectedEventException();
     };
 }
-    void pauseEvent(){}
+void pauseEvent::PauseInd()
+{}
 } // namespace Snake
